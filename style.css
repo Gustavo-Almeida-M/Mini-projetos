@@ -1,0 +1,16 @@
+
+.fundo_principal
+{
+    background-image: url(img/endless-constellation.svg);
+    background-size: cover;
+    background-position: center center;
+    height: 67.7rem;
+    color: #fff;
+}
+.conteudo_principal
+{
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+ 
