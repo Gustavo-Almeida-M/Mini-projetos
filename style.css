@@ -18,4 +18,22 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 90vh;
 }
+.intro_text, .intro_img
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.intro_text h2
+{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+.intro_img img
+{
+    max-width: 100%;
+    height: auto;
+}
+
