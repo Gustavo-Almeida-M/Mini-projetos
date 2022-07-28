@@ -7,11 +7,15 @@
     height: 67.7rem;
     color: #fff;
 }
+.fundo_branco
+{
+    height: 67.7rem;
+    color: #0b0633;
+}
 .conteudo_principal
 {
     max-width: 120rem;
     margin: 0 auto;
-
 }
  
 .intro_content
@@ -26,14 +30,16 @@
     flex-flow: column wrap;
     justify-content: center;
 }
-.intro_text h2
-{
-    font-size: 6rem;
-    text-transform: uppercase;
-}
 .intro_img img
 {
     max-width: 100%;
     height: auto;
 }
-
+.sec_habilidades
+{
+    max-width: 80rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
