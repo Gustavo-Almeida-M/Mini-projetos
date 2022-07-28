@@ -39,7 +39,7 @@
     left: 50%;
     width: 0;
     height: 0.2rem;
-    background: rgb(211, 20, 20);
+    background: rgb(228,149,21);
     transition: all 300ms ease-in-out;
 }
 .menu ul li a:hover::after
