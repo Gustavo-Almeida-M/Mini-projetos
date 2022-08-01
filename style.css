@@ -1,11 +1,11 @@
 
 .fundo_principal
 {
-    background-image: url(img/endless-constellation.svg);
+    background-image: url(img/page-turner.svg);
     background-size: cover;
     background-position: center center;
     min-height: 67.7rem;
-    color: #fff;
+    color: #E9E6FF;
 }
 .fundo_branco
 {
@@ -52,9 +52,16 @@
 {
     max-height: 300px;
     display: inline;
+    border: #f75c03 solid 1rem ;
+    border-radius: 7px;
 }
 .img_projetos
 {
     max-height: 500px;
     display: inline;
+}
+.sec_galeria h2
+{
+    margin-top: 6rem;
+    margin-bottom: 4.5rem;
 }
