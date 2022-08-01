@@ -35,29 +35,26 @@
     max-width: 100%;
     height: auto;
 }
-.sec_habilidades
+.sec_galeria
 {
-    max-width: 80rem;
+    max-width: 100%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;
 }
-.sec_habilidades h2
-{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-}
-.habilidade
-{
-    color: rgb(228,149,21);
-}
-.grid
+.galeria
 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.grid p
+.galeria img 
 {
-    font-size: 2.5rem;
+    max-height: 300px;
+    display: inline;
+}
+.img_projetos
+{
+    max-height: 500px;
+    display: inline;
 }

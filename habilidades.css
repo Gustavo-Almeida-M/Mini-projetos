@@ -1,0 +1,44 @@
+.sec_habilidades
+{
+    max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+.sec_habilidades h2
+{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.habilidade
+{
+    color: rgb(228,149,21);
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid div
+{
+    display: flex;
+    align-items: baseline;
+}
+.grid p
+{
+    font-size: 2.5rem;
+    text-align: left;
+}
+.grid h3
+{
+    font-size: 3.2rem;
+    display: inline;
+}
+.grid .logos
+{
+    max-height: 75px;
+    display: inline;
+    border: #fff;
+    border-radius: 25px;
+}
