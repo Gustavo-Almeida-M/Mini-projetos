@@ -47,13 +47,24 @@
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
 }
 .galeria img 
 {
-    max-height: 300px;
-    display: inline;
-    border: #f75c03 solid 1rem ;
+    /* max-width: 60rem;
+    max-height: 50rem;
+    border: #3F3D56 solid 1rem ;
     border-radius: 7px;
+    overflow: hidden; */
+    width: 100%;
+    max-width: 60rem;
+    max-height: 60rem;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+}
+.galeria img:hover
+{
+    transform:scale(1.05);
 }
 .img_projetos
 {
